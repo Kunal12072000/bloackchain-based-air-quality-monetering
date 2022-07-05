@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "969160914748",
+    "firebase_url": "https://pollutionapp-a20f8.firebaseio.com",
+    "project_id": "pollutionapp-a20f8",
+    "storage_bucket": "pollutionapp-a20f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969160914748:android:30f15701ab92541b",
+        "android_client_info": {
+          "package_name": "com.pollution.pollutionApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969160914748-lgg679aoovs4slspgv1q5of84gbk1sch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pollution.pollutionApp",
+            "certificate_hash": "e482f7e0cc0c9c69af8da8d9863eb2cd568a7e90"
+          }
+        },
+        {
+          "client_id": "969160914748-uc7bkjl830inpkt8utkd72qm9kt414a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pollution.pollutionApp",
+            "certificate_hash": "06e30235bb6fd611e6018985fc4c3f8c007e40bd"
+          }
+        },
+        {
+          "client_id": "969160914748-9969f90ksuo2lm3ohb8836j779ocelvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL50BqaWUpNcCObJUK1eqtUI5c1p_q4Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969160914748-9969f90ksuo2lm3ohb8836j779ocelvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
