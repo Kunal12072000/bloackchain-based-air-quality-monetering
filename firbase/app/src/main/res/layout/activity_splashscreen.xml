@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pollution.pollutionApp.SplashScreenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient_red_shade"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_logo"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/four_dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/splash"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/twentyfour"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+</FrameLayout>

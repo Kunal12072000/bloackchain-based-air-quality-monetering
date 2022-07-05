@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#CABB35</color>
+    <color name="dark_green">#254E5F</color>
+
+    <color name="whitie">#ffffff</color>
+    <color name="trans">#00000000</color>
+    <color name="splash">#EFF0EF</color>
+    <color name="light_grey">#FF9E9EA1</color>
+    <color name="light_grey_opaque">#D7A5A6A4</color>
+
+    <color name="grey">#585858</color>
+    <color name="violetgrey">#FF56485C</color>
+
+    <color name="red_shade_7a">#006064</color>
+    <color name="red_shade_4d">#036468</color>
+    <color name="black_0a">#0a0819</color>
+    <color name="grey_f6">#f6f6f6</color>
+    <color name="good_meter">#73B922</color>
+    <color name="moderate_meter">#CABB35</color>
+    <color name="moderate_meter_fluor">#E6D324</color>
+    <color name="unheal_sensi_meter">#FDA20C</color>
+    <color name="unheal_meter">#D0021B</color>
+    <color name="v_unheal_meter">#9013FE</color>
+    <color name="hazardo_meter">#8E0C2B</color>
+</resources>
