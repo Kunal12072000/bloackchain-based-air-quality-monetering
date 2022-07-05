@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pollution.pollutionApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+17
+18    <application
+18-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:9:5-63:19
+19        android:allowBackup="true"
+19-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\c6f4260131458ccd0b15b1a20cb8065e\core-1.2.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:15:9-35
+26        android:theme="@style/AppTheme"
+26-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:16:9-40
+27        android:usesCleartextTraffic="true" >
+27-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:13:9-44
+28        <activity
+28-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:18:9-22:52
+29            android:name="com.pollution.pollutionApp.ProfileRegActivity"
+29-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:18:19-79
+30            android:label="Register"
+30-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:21:13-37
+31            android:launchMode="singleTop"
+31-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:19:13-43
+32            android:screenOrientation="portrait"
+32-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:22:13-49
+33            android:windowSoftInputMode="stateHidden" />
+33-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:20:13-54
+34        <activity
+34-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:23:9-28:58
+35            android:name="com.pollution.pollutionApp.LoginActivity"
+35-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:24:13-68
+36            android:launchMode="singleTop"
+36-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:25:13-43
+37            android:screenOrientation="portrait"
+37-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:27:13-49
+38            android:theme="@style/AppTheme.NoActionBar"
+38-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:28:13-56
+39            android:windowSoftInputMode="stateHidden" />
+39-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:26:13-54
+40        <activity
+40-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:29:9-34:59
+41            android:name="com.pollution.pollutionApp.NavigationActivity"
+41-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:30:13-73
+42            android:launchMode="singleTop"
+42-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:31:13-43
+43            android:screenOrientation="portrait"
+43-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:33:13-49
+44            android:theme="@style/AppTheme.NoActionBar"
+44-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:34:13-56
+45            android:windowSoftInputMode="stateHidden" />
+45-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:32:13-54
+46
+47        <uses-library
+47-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:36:9-38:40
+48            android:name="org.apache.http.legacy"
+48-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:37:13-50
+49            android:required="false" />
+49-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:38:13-37
+50
+51        <meta-data
+51-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:40:9-42:55
+52            android:name="com.google.android.geo.API_KEY"
+52-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:41:13-58
+53            android:value="@string/google_maps_key" />
+53-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:42:13-52
+54
+55        <activity
+55-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:44:9-55:20
+56            android:name="com.pollution.pollutionApp.SplashScreenActivity"
+56-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:45:13-75
+57            android:launchMode="singleTop"
+57-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:46:13-43
+58            android:screenOrientation="portrait"
+58-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:48:13-49
+59            android:theme="@style/AppTheme.NoActionBar"
+59-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:49:13-56
+60            android:windowSoftInputMode="stateHidden" >
+60-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:47:13-54
+61            <intent-filter>
+61-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:50:13-54:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:51:17-69
+62-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:51:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:53:17-77
+64-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:53:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:56:9-61:52
+68            android:name="com.pollution.pollutionApp.OTPActivity"
+68-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:57:13-66
+69            android:label=""
+69-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:58:13-29
+70            android:launchMode="singleTop"
+70-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:59:13-43
+71            android:screenOrientation="portrait"
+71-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:61:13-49
+72            android:windowSoftInputMode="stateHidden" />
+72-->E:\Workspace\Projects\done\AirPollutionMonitoringFirebase\app\src\main\AndroidManifest.xml:60:13-54
+73
+74        <service
+74-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+79-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+81        </service>
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+90            android:authorities="com.pollution.pollutionApp.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nevon\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>
